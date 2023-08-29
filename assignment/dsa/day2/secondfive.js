@@ -1,16 +1,12 @@
-//Stack Operations
-//Implement a stack using an array. Create a stack called `myStack` and perform the following operations:
-// Push the values 10, 20, and 30 onto the stack.
-//Pop the top element from the stack.
-//Push the value 40 onto the stack.
+//Shopping List
+//Create an empty array called `shoppingList`. Using the appropriate methods, add the items "eggs", "milk", "bread", and "vegetables" to the shopping list. Then, remove the "bread" from the list.
 
-//Print the stack after each operation.
+//Print the shopping list after each operation.
 
-let mystack=[];
-console.log(mystack);
-mystack.push(10,20,30);
-console.log(mystack);
-mystack.shift();
-console.log(mystack);
-mystack.push(40);
-console.log(mystack);
+let shoppingList=["eggs", "milk", "bread","vegetables"];
+console.log(shoppingList);
+shoppingList.splice(2,1);
+console.log(shoppingList);
+
+
+
