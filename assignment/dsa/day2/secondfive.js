@@ -1,12 +1,20 @@
-//console.log(truncateText("This is a long sentence.", 10));
- // Output: "This is a..."
-//console.log(truncateText("Short text.", 15)); 
-// Output: "Short text."
+//Adding and Removing Elements
+//Create an array called `fruits` with initial values ["apple", "banana"]. Using the appropriate array methods, perform the following actions:
+// Add "orange" to the end of the array.
+//Remove the last element from the array.
+//Add "grape" to the beginning of the array.
+//Remove the first element from the array.
 
-let text= (('"This is a long sentence.",10'))
-let newtruncatetext1=text.slice(0,10)+'..."';
-console.log(newtruncatetext1);
+//Print the final array after each step.
 
-let text1=(('"Short text.",15'));
-let newtruncatetext2=text1.slice(0,13);
-console.log(newtruncatetext2);
+let fruits =["apple", "banana"];
+console.log(fruits);
+fruits.push("orange");
+console.log(fruits);
+fruits.pop();
+console.log(fruits);
+fruits.unshift("grape");
+console.log(fruits);
+fruits.shift();
+console.log(fruits);
+
