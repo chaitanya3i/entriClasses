@@ -1,20 +1,16 @@
-//Adding and Removing Elements
-//Create an array called `fruits` with initial values ["apple", "banana"]. Using the appropriate array methods, perform the following actions:
-// Add "orange" to the end of the array.
-//Remove the last element from the array.
-//Add "grape" to the beginning of the array.
-//Remove the first element from the array.
+//Stack Operations
+//Implement a stack using an array. Create a stack called `myStack` and perform the following operations:
+// Push the values 10, 20, and 30 onto the stack.
+//Pop the top element from the stack.
+//Push the value 40 onto the stack.
 
-//Print the final array after each step.
+//Print the stack after each operation.
 
-let fruits =["apple", "banana"];
-console.log(fruits);
-fruits.push("orange");
-console.log(fruits);
-fruits.pop();
-console.log(fruits);
-fruits.unshift("grape");
-console.log(fruits);
-fruits.shift();
-console.log(fruits);
-
+let mystack=[];
+console.log(mystack);
+mystack.push(10,20,30);
+console.log(mystack);
+mystack.shift();
+console.log(mystack);
+mystack.push(40);
+console.log(mystack);
